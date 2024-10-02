@@ -104,7 +104,7 @@ function Hero() {
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
-            E-mail: accounts@nakliyecilercepte.com.tr
+            E-mail: info@nakliyecilercepte.com.tr
           </Typography>
         </div>
       </div>
