@@ -1,9 +1,6 @@
 "use client";
 import Image from "next/image";
-import { Typography, IconButton, Button } from "@material-tailwind/react";
-
-const LINKS = ["About Us", "Careers", "Press", "Blog", "Pricing"];
-const CURRENT_YEAR = new Date().getFullYear();
+import { Typography, Button } from "@material-tailwind/react";
 
 export function Footer() {
   return (
@@ -18,21 +15,40 @@ export function Footer() {
               variant="h5"
               color="white"
               className="mb-4"
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
               Nakliyeciler Cepte Uygulaması
             </Typography>
-            <Typography color="white" className="mb-12 font-normal">
+            <Typography
+              color="white"
+              className="mb-12 font-normal"
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+            >
               Yük arayan ve yük vereni buluşturan mobil uygulama
             </Typography>
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
-            <Typography variant="h6" color="white" className="mb-3">
+            <Typography
+              variant="h6"
+              color="white"
+              className="mb-3"
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+            >
               Uygulamayı İndir
             </Typography>
             <div className="flex flex-col gap-2">
               <Button
                 color="white"
                 className="flex items-center justify-center"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
               >
                 <Image
                   width={256}
@@ -46,6 +62,9 @@ export function Footer() {
               <Button
                 color="white"
                 className="flex items-center justify-center"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
               >
                 <Image
                   width={256}

@@ -9,17 +9,34 @@ function Hero() {
       <header className="grid !min-h-[49rem] bg-gray-900 px-8">
         <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-14 lg:grid-cols-2">
           <div className="col-span-1">
-            <Typography variant="h1" color="white" className="mb-4">
+            <Typography
+              variant="h1"
+              color="white"
+              className="mb-4"
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+            >
               Nakliyeciler Cepte <br /> Yenilendi
             </Typography>
             <Typography
               variant="lead"
               className="mb-7 !text-white md:pr-16 xl:pr-28"
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
-              Binlerce yük arayan ve yük verenin kullandığı "Nakliyeciler Sitesi
-              Cepte" uygulaması yeni adıyla yayında
+              Binlerce yük arayan ve yük verenin kullandığı Nakliyeciler Sitesi
+              Cepte uygulaması yeni adıyla yayında
             </Typography>
-            <Typography className="mb-4" color="white" variant="h6">
+            <Typography
+              className="mb-4"
+              color="white"
+              variant="h6"
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+            >
               Uygulamayı İndir
             </Typography>
             <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
@@ -27,6 +44,9 @@ function Hero() {
                 size="lg"
                 color="white"
                 className="flex justify-center items-center gap-3"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
               >
                 <Image
                   width={256}
@@ -41,6 +61,9 @@ function Hero() {
                 size="lg"
                 color="white"
                 className="flex justify-center items-center gap-3"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
               >
                 <Image
                   width={256}
@@ -64,12 +87,22 @@ function Hero() {
       </header>
       <div className="mx-8 lg:mx-16 -mt-24 rounded-xl bg-white p-5 md:p-14 shadow-md">
         <div>
-          <Typography variant="h3" color="blue-gray" className="mb-3">
+          <Typography
+            variant="h3"
+            color="blue-gray"
+            className="mb-3"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             İletişim Bilgilerimiz
           </Typography>
           <Typography
             variant="paragraph"
             className="font-normal !text-gray-500 lg:w-5/12"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
           >
             E-mail: accounts@nakliyecilercepte.com.tr
           </Typography>
