@@ -27,7 +27,7 @@ export function Footer() {
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
             <Typography variant="h6" color="white" className="mb-3">
-              Get the app
+              Uygulamayı İndir
             </Typography>
             <div className="flex flex-col gap-2">
               <Button

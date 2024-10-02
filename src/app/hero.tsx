@@ -20,7 +20,7 @@ function Hero() {
               Cepte" uygulaması yeni adıyla yayında
             </Typography>
             <Typography className="mb-4" color="white" variant="h6">
-              Get the app
+              Uygulamayı İndir
             </Typography>
             <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
               <Button
