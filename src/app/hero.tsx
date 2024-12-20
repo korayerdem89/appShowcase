@@ -53,8 +53,8 @@ function Hero() {
             </div>
           </div>
           <Image
-            width={1024}
-            height={1430}
+            width={1024 * 0.5}
+            height={1430 * 0.5}
             src="/image/hero.png"
             alt="team work"
             className="col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[40rem] lg:translate-y-0"
