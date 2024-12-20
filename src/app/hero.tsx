@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { Button, Typography } from "@material-tailwind/react";
 
-
 function Hero() {
   return (
     <div className="relative min-h-screen w-full">
@@ -55,9 +54,9 @@ function Hero() {
             </div>
           </div>
           <Image
-            width={470}
-            height={576}
-            src="/image/iphones.png"
+            width={1024}
+            height={1430}
+            src="/image/hero.png"
             alt="team work"
             className="col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[40rem] lg:translate-y-0"
           />
@@ -66,15 +65,13 @@ function Hero() {
       <div className="mx-8 lg:mx-16 -mt-24 rounded-xl bg-white p-5 md:p-14 shadow-md">
         <div>
           <Typography variant="h3" color="blue-gray" className="mb-3">
-            Learning App
+            Personal Development App
           </Typography>
           <Typography
             variant="paragraph"
             className="font-normal !text-gray-500 lg:w-5/12"
           >
-            Download our app to dive into a vast library of courses, tutorials,
-            and study materials on a wide range of subjects - from programming
-            and language learning to personal development and beyond
+            Download our app to peak your personal development
           </Typography>
         </div>
       </div>
